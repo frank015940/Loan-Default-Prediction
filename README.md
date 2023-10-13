@@ -2,8 +2,12 @@
 
 # Introduction
 
-Loan defaulting is a serious problem that affects both lenders and borrowers.Lenders lose money and trust when borrowers fail to repay their loans , while borrowers  suffer from damaged credit scores and legal consequences.Therefore, it is important to predict the likelihood of loan default  and take preventive measures to reduce the risk.
-In this project we will use machine learning techniques to build a predictive model for loan default based on data from SuperLender, a local digital lending company.SuperLender uses data driven a data-driven  approach to assess the credit risk of its customers and determine  the two fundermental drivers of repayment; `willingness` and `ability`.We will explore hoiw SuperLender uses machine learning models to predict loan outcomes and evaluate their performance.
+Financial sector has emerged as the benchmark in leveraging the potential of data analtytics and machine learning to not only improve operations but to also proactively minimise the risks.
+
+Our primary goal is to use data science tool as predictive modelling to build a strong framework capable of predicting loan outcomes.Our technique has the potential to help financial institutions to make more informed lending decisions.
+
+SuperLender uses data driven a data-driven  approach to assess the credit risk of its customers and determine  the two fundermental drivers of repayment; `willingness` and `ability`.We will explore how SuperLender uses machine learning models to predict loan outcomes and evaluate their performance.
+
 
 # Business Understanding
 
