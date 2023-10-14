@@ -31,15 +31,28 @@ To develop a model which predicts customer loan repayment chances.
 
 # Data Understanding
 
+## Overview
+We sourced our dataset from Zindi.
+
+## Data Description
+
+This data contains 3 different datasets for both train and test
+
+
+# Data Preparation
+Within our data preparation phase, we perfommed the following tasks:
+* Data cleaning
+* Checking missing values and filling values
+* checking for outliers
+* Checking for duplicates
+
 # Exploratory Data Analysis
 
-## Univariate
-
-## Bivariate
-
-## Multivariate
+We examined our dataset thoroughly during the exploratory data analysis (EDA) phase of the project. This EDA method included univariate analysis, which focused on individual factors, bivariate analysis, which looked at correlations between pairs of variables, and multivariate analysis, which looked at complicated interactions between many variables. 
 
 # Modeling
+
+We applied three key machine learning algorithms: logistic regression as our baseline model, decision tree, and random forest.
 
 # Conclusions
 
