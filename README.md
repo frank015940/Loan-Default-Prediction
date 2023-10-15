@@ -37,6 +37,13 @@ We sourced our dataset from Zindi.
 ## Data Description
 
 This data contains 3 different datasets for both train and test
+The data contains:
+
+> Demographic Data - It has customer identification and demographics that include birthdate,bank account information, geographic location, bank name and branch, employment status and level of education.
+
+> Performance Data - The details about loan performance include loan identification, loan approval date, loan amount, total amount due,term duration, information about referrals and a classification indicating ‘good’meaning loan settled on time or ‘bad’ loan
+
+> Previous Loans Data- This has details of historical information about previous loans, including loan identification, loan approval date, creation date, loan amount, total amount due, loan closure date, information about referrals and dates related to the first due payment and the first payment made.
 
 
 # Data Preparation
@@ -53,6 +60,8 @@ We examined our dataset thoroughly during the exploratory data analysis (EDA) ph
 # Modeling
 
 We applied three key machine learning algorithms: logistic regression as our baseline model, decision tree, and random forest.
+
+# Evaluation
 
 # Conclusions
 
