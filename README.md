@@ -1,5 +1,13 @@
 # Loan-Default-Prediction.
 
+## Group Members
+* Killion Mokaya
+* Derrick Wekesa
+* James Murigi
+* Brenda Mutai
+* William Ndoni
+* Franklin Muchiri
+
 # Introduction
 
 Financial sector has emerged as the benchmark in leveraging the potential of data analtytics and machine learning to not only improve operations but to also proactively minimise the risks.
