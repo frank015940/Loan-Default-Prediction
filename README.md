@@ -57,7 +57,7 @@ The data contains:
 # Data Preparation
 Within our data preparation phase, we perfommed the following tasks:
 * Data cleaning
-* Checking missing values and filling values
+* Checking missing values and filling missing values
 * checking for outliers
 * Checking for duplicates
 
