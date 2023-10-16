@@ -73,7 +73,16 @@ We applied three key machine learning algorithms: logistic regression as our bas
 
 # Conclusions
 
+* High Accuracy: The model achieved accuracy levels exceeding 99%, minimizing financial risks for lending institutions
+
+
+
 # Recommendations
+
+* Data Quality Assurance: Prioritize data quality and consistency throughout the data pipeline to enhance model performance.
+
+* Continuous Model Maintenance: Establish a routine for ongoing model monitoring and retraining to adapt to evolving loan default patterns
+
 
 
 
