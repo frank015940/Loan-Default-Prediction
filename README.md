@@ -44,7 +44,7 @@ The loan default prediction project uses three datasets from Zindi, a platform f
 * Performance data: Contains 4,368 rows and 10 columns.
 * Previous loans data: Contains 18,183 rows and 12 columns.
 
-< Demographic Data: It has customer identification and demographics that include birthdate,bank account information, geographic location, bank name and branch, employment status and level of education.
+> Demographic Data: It has customer identification and demographics that include birthdate,bank account information, geographic location, bank name and branch, employment status and level of education.
 
 > Performance Data: The details about loan performance include loan identification, loan approval date, loan amount, total amount due,term duration, information about referrals and a classification indicating ‘good’meaning loan settled on time or ‘bad’ loan
 
