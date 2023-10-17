@@ -39,19 +39,16 @@ To develop a model which predicts customer loan repayment chances.
 
 # Data Understanding
 
-## Overview
-We sourced our dataset from Zindi.
+The loan default prediction project uses three datasets from Zindi, a platform for data science competitions. The datasets are:
+* Demographic data: Contains 4,346 rows and 9 columns.
+* Performance data: Contains 4,368 rows and 10 columns.
+* Previous loans data: Contains 18,183 rows and 12 columns.
 
-## Data Description
+< Demographic Data: It has customer identification and demographics that include birthdate,bank account information, geographic location, bank name and branch, employment status and level of education.
 
-This data contains 3 different datasets for both train and test
-The data contains:
+> Performance Data: The details about loan performance include loan identification, loan approval date, loan amount, total amount due,term duration, information about referrals and a classification indicating ‘good’meaning loan settled on time or ‘bad’ loan
 
-> Demographic Data - It has customer identification and demographics that include birthdate,bank account information, geographic location, bank name and branch, employment status and level of education.
-
-> Performance Data - The details about loan performance include loan identification, loan approval date, loan amount, total amount due,term duration, information about referrals and a classification indicating ‘good’meaning loan settled on time or ‘bad’ loan
-
-> Previous Loans Data- This has details of historical information about previous loans, including loan identification, loan approval date, creation date, loan amount, total amount due, loan closure date, information about referrals and dates related to the first due payment and the first payment made.
+> Previous Loans Data: This has details of historical information about previous loans, including loan identification, loan approval date, creation date, loan amount, total amount due, loan closure date, information about referrals and dates related to the first due payment and the first payment made.
 
 
 # Data Preparation
@@ -67,21 +64,25 @@ We examined our dataset thoroughly during the exploratory data analysis (EDA) ph
 
 # Modeling
 
-We applied three key machine learning algorithms: logistic regression as our baseline model, decision tree, and random forest.
-
-# Evaluation
+The project evaluated two loan default prediction models: Logistic Regression and Decision Trees. Logistic Regression achieved an accuracy of 84% and a balanced trade-off between precision and recall. It could spot loan defaults 88% of the time while not missing many, and 81% of the time for non-default loans. Decision Trees, on the other hand, had exceptional precision and recall scores of 97% and 98% for both default and non-default loans, resulting in an impressive 98% overall accuracy.
 
 # Conclusions
 
 * High Accuracy: The model achieved accuracy levels exceeding 99%, minimizing financial risks for lending institutions
-
+* Lending institutions can benefit from improved risk assessment, minimizing financial risks and optimizing lending decisions with the model's accurate predictions.
+* The development of a user-friendly web app using Streamlit has greatly improved accessibility to the model, enhancing its value for lending professionals and stakeholders.
+* Continuous updates to the model through the web app enhance its adaptability to changing market conditions.
 
 
 # Recommendations
 
-* Data Quality Assurance: Prioritize data quality and consistency throughout the data pipeline to enhance model performance.
+* Implement a structured plan for continuous model maintenance, including regular updates and retraining to keep it relevant.
+* Provide training and guidelines to users of the web app to ensure they make the most of the model's insights.
+* Establish robust data quality assurance processes to ensure data accuracy and consistency, crucial for model performance.
+* Conduct periodic risk assessments to ensure that the model aligns with the evolving lending landscape.
+* Create a feedback mechanism within the web app to gather insights from users for model improvement.
+* Implement stringent data security measures to protect sensitive information used by the model.
 
-* Continuous Model Maintenance: Establish a routine for ongoing model monitoring and retraining to adapt to evolving loan default patterns
 
 
 
