@@ -7,7 +7,7 @@ import pickle
 
 #loaded_pipe = joblib.load('ensemble_pipeline.pkl',allow_pickle=True)
 
-with open('ensemble_pipeline.pkl', 'rb') as f:
+with open('decision_tree_model.pkl', 'rb') as f:
     loaded_pipe = pickle.load(f)
 
 
@@ -155,4 +155,3 @@ if st.button('Predict'):
     # Calculate and display the credit score
     credit_scores = assign_credit_score({'Credit Category': (0.2, 0.8)})  # Modify this as per your logic
     st.write(f'Credit Score: {credit_scores["Credit Category"]}')
-
