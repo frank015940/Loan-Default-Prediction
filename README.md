@@ -1,5 +1,6 @@
 # Loan-Default-Prediction.
 
+![Alt text](<Loan image.webp>)
 
 ## Group Members
 * Killion Mokaya
